@@ -602,10 +602,18 @@ footer,
     background-color: rgb(36, 36, 36);
 }
 
-.content-left-item-8 p,
 .content-left-item-8 h4 {
     color: var(--white-color);
+}
+
+.content-left-item-8:first-child p {
+    font-size: 0.9rem;
+    color: var(--white-color);
     margin-top: 6px;
+}
+
+.content-left-item-8:last-child p {
+    padding: 10px 0;
 }
 
 .content-left-item-8 form {
