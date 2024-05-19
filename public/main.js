@@ -1,3 +1,5 @@
+new WOW().init();
+
 const images = document.querySelectorAll('.box-img img');
 const imgMain = document.getElementById('img-main');
 
